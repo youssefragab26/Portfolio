@@ -1,19 +1,58 @@
+:root {
+    --Background: url("BGP.jpg");
+    --FontColor: #303030;
+    --ButtonsColor: #e2cdb2;
+}
+
 /* photo */
 .PrsonalPhoto{
     height: 250px;
     width:  250px;
-    border: 2px solid #303030;
+    border: 2px solid var(--FontColor);
 }
 
 .PP{
+    margin-top:  20px;
     text-align:  center;
     align-items: center;
 }
 
 /* info */
 .info{
-    margin: 10px;
+    margin: 20px;
     text-align:  center;
     align-items: center;
-    color: #303030;
+    color: var(--FontColor);
+    font-family: "Kalam";
+}
+
+/* Buttons */
+.buttons {
+    text-align:  center;
+    align-items: center;
+}
+
+.button{
+    padding: 5px;
+    width: 120px;
+    border: 3px solid var(--FontColor);
+    border-radius: 16px;
+    background-color: var(--ButtonsColor);
+    color: var(--FontColor);
+    font-family: "Kalam";
+}
+
+/* DownAngle */
+.DownAngle{
+    align-items: center;
+    text-align:  center;
+    margin: 20px;
+}
+
+/* About */
+.about{
+    color: var(--FontColor);
+    font-family: "Barlow Condensed";
+    font-size: 20px;
+    margin-left: 10px;
 }
